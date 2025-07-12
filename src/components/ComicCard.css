@@ -1,0 +1,35 @@
+.comic-card {
+  background: rgba(255, 255, 255, 0.2);      /* glassy panel */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;                           /* single-field panel width */
+  margin: 20px 0;
+}
+
+.comic-card:hover {
+  transform: scale(1.02);
+}
+
+.comic-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.comic-card h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.comic-card p {
+  font-size: 1rem;
+  line-height: 1.4;
+}

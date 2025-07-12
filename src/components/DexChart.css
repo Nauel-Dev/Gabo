@@ -1,0 +1,18 @@
+.dex-container {
+  width: 100%;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.dex-iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}.dex-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
