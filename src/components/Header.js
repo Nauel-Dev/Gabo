@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <a href="https://t.me/YOUR_TG_PLACEHOLDER" target="_blank" rel="noopener noreferrer">
+        <a href="https://t.me/Gabo_onSol" target="_blank" rel="noopener noreferrer">
           GABO
         </a>
       </div>
